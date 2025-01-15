@@ -128,7 +128,7 @@ struct ContentView: View {
         }
 
         private func buttonWidth(for button: String) -> CGFloat {
-            button == "=" ? (UIScreen.main.bounds.width - 48) / 2 : (UIScreen.main.bounds.width - 60) / 4
+            button == "0" ? (UIScreen.main.bounds.width - 48) / 2 : (UIScreen.main.bounds.width - 60) / 4
         }
 
         private func buttonHeight() -> CGFloat {
